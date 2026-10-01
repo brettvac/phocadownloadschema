@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelogs>
+    <changelog>
+        <element>phocadownloadschema</element>
+        <type>plugin</type>
+        <version>1.0</version>
+        <addition>
+            <item>Initial release of the Phoca Download Schema plugin.</item>
+        </addition>
+    </changelog>
+</changelogs>
