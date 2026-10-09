@@ -7,27 +7,21 @@
     <copyright>Copyright (C) 2026</copyright>
     <license>GNU General Public License version 2</license>
     <description>PLG_SYSTEM_PHOCADOWNLOADSCHEMA_DESCRIPTION</description>
-
     <namespace path="src">Naftee\Plugin\System\Phocadownloadschema</namespace>
-
     <scriptfile>script.php</scriptfile>
-
     <files>
         <folder plugin="phocadownloadschema">services</folder>
         <folder>src</folder>
         <filename>script.php</filename>
     </files>
-
     <languages folder="language">
         <language tag="en-GB">en-GB/plg_system_phocadownloadschema.ini</language>
         <language tag="en-GB">en-GB/plg_system_phocadownloadschema.sys.ini</language>
     </languages>
-
     <updateservers>
         <server type="extension" priority="1" name="Phoca Download Schema Update Server">
             https://raw.githubusercontent.com/naftee/phocadownloadschema/main/update/updates.xml
         </server>
     </updateservers>
-
     <changelogurl>https://raw.githubusercontent.com/naftee/phocadownloadschema/main/update/changelog.xml</changelogurl>
 </extension>
